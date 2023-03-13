@@ -1,0 +1,14 @@
+package com.citi.ms;
+
+import java.math.BigDecimal;
+
+public class CurrencyValue {
+
+	private int id;
+	private String from;
+	private String to;
+	private BigDecimal multiple;
+	private BigDecimal conversionValue;
+	
+	
+}

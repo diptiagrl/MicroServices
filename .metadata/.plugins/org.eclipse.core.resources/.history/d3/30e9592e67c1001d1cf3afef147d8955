@@ -1,0 +1,24 @@
+package com.citi.ms;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.context.annotation.Bean;
+
+import com.citi.ms.entity.ExchangeValue;
+
+//https://codebunk.com/b/5561100577878/
+@SpringBootApplication
+public class ForexServiceApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(ForexServiceApplication.class, args);
+	}
+	
+	@Bean
+	public void addData()
+	{
+		ExchangeValue v1 = new ExchangeValue(1, "USA", "INR", 80.0);
+	}
+	
+
+}

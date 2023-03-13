@@ -1,0 +1,10 @@
+package com.citi.ms.rest;
+
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+public class ForexRestController {
+
+	@GetMapping("/forex/from/{from}/to/{to}")
+}

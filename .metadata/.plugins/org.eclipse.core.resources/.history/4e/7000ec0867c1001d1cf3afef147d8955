@@ -1,0 +1,60 @@
+package com.citi.ms.entity;
+
+import java.math.BigDecimal;
+
+import jakarta.persistence.Entity;
+import jakarta.persistence.Id;
+import jakarta.persistence.Table;
+
+@Entity
+@Table(name="exchange")
+public class ExchangeValue {
+
+	@Id
+	private int id;
+	private String from;
+	private String to;
+	private BigDecimal multiple;
+	
+	public ExchangeValue() {
+		// TODO Auto-generated constructor stub
+	}
+
+	public int getId() {
+		return id;
+	}
+
+	public void setId(int id) {
+		this.id = id;
+	}
+
+	public String getFrom() {
+		return from;
+	}
+
+	public void setFrom(String from) {
+		this.from = from;
+	}
+
+	public String getTo() {
+		return to;
+	}
+
+	public void setTo(String to) {
+		this.to = to;
+	}
+
+	public BigDecimal getMultiple() {
+		return multiple;
+	}
+
+	public void setMultiple(BigDecimal multiple) {
+		this.multiple = multiple;
+	}
+
+	@Override
+	public String toString() {
+		return "ExchangeValue [id=" + id + ", froom=" + from + ", to=" + to + ", multiple=" + multiple + "]";
+	}
+	
+}
