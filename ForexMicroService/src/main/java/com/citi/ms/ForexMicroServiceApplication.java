@@ -18,6 +18,8 @@ import com.citi.ms.repo.ExchangevalueRepo;
 @SpringBootApplication
 public class ForexMicroServiceApplication {
 
+	//java -jar -Dserver.port=9094 ForexMicroService-0.0.1-SNAPSHOT.jar
+
 	public static void main(String[] args) {
 		SpringApplication.run(ForexMicroServiceApplication.class, args);
 	}
@@ -25,6 +27,7 @@ public class ForexMicroServiceApplication {
 	
 	@Autowired 
 	private ExchangevalueRepo repo;
+	
 	@Bean
 	public void addData()
 	{
