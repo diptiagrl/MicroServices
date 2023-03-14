@@ -13,17 +13,30 @@ import org.springframework.web.client.RestTemplate;
 public class ServiceRestController {
 
 	
+//	@Autowired
+//	private RestTemplate template;
+//	
+//	// exposes REST API over HTTP GET method
+//	@GetMapping("exchange/from/{from}/to/{to}/qty/{qty}")
+//	public CurrencyValue calculateMultiple (@PathVariable String from,
+//			@PathVariable String to,@PathVariable int  qty){	
+//		
+//		CurrencyValue cv =  template.getForObject(
+//				"http://FOREX-SERVICE/forex/from/{from}/to/{to}",
+//				CurrencyValue.class, from, to);
+//		cv.setConversionValue(cv.getMultiple().multiply(new BigDecimal(qty)));
+//		return cv;
+//	}
+	
 	@Autowired
-	private RestTemplate template;
+	private ForexFeigClient client;
 	
 	// exposes REST API over HTTP GET method
 	@GetMapping("exchange/from/{from}/to/{to}/qty/{qty}")
 	public CurrencyValue calculateMultiple (@PathVariable String from,
 			@PathVariable String to,@PathVariable int  qty){	
 		
-		CurrencyValue cv =  template.getForObject(
-				"http://FOREX-SERVICE/forex/from/{from}/to/{to}",
-				CurrencyValue.class, from, to);
+		CurrencyValue cv =  client.getConnversionMultiple(from, to);
 		cv.setConversionValue(cv.getMultiple().multiply(new BigDecimal(qty)));
 		return cv;
 	}

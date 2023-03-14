@@ -12,6 +12,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 import com.techgatha.model.BookOrder;
 import com.techgatha.repository.BookOrderRepository;
+import com.techgatha.response.OrderResponse;
 
 @RestController
 @RequestMapping("/orders")
@@ -33,6 +34,24 @@ public class BookOrderResource {
 					obj.setDatetime(order.getDatetime());
 					return obj;
 		}).collect(Collectors.toList());
+	}
+	
+	@GetMapping("/dto/{email}")
+	public OrderResponse getBooksOrderedByUserDTO(@PathVariable String email)
+	{
+		List<BookOrder> orders = new ArrayList<>();
+		orders = repository.findByEmail(email).stream()
+				.map(order -> 
+				{
+					BookOrder obj = new BookOrder();
+					obj.setBookid(order.getBookid());
+					obj.setDatetime(order.getDatetime());
+					return obj;
+		}).collect(Collectors.toList());
+		
+		OrderResponse resp = new OrderResponse();
+		resp.setOrders(orders);
+		return resp;
 	}
 	
 }
