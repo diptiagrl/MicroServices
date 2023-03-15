@@ -22,21 +22,41 @@ public class HystrixCircuitBreakerDemoApplication {
 		MyService myService = ctx.getBean(MyService.class);
 
 		System.out.println("-- calling doSomething(1) 40 times --");
-		Thread.sleep(3000);
-		int n = 40;
-		for (int i = 0; i < n; i++) {
-			System.out.println("******* "+i +" **************");
-			if(i > 4)
-				myService.doSomething(i < (n * 0.6) ? 0 : 2);// 10/0
-			
-			else
-				 myService.doSomething(1);// 10/0
-			TimeUnit.MILLISECONDS.sleep(100);
-		}
-		TimeUnit.SECONDS.sleep(2);
-
-		System.out.println("-- final call --");
-		myService.doSomething(2);
+		Thread.sleep(5000);
+//		int n = 40;
+//		for (int i = 0; i < n; i++) {
+//			System.out.println("******* "+i +" **************");
+//			if(i > 4)
+//				myService.doSomething(i < (n * 0.6) ? 0 : 2);// 10/0
+//			
+//			else
+//				 myService.doSomething(1);// 10/0
+//			TimeUnit.MILLISECONDS.sleep(100);
+//		}
+//		TimeUnit.SECONDS.sleep(2);
+//
+//		System.out.println("-- final call --");
+//		myService.doSomething(2);
+		
+		myService.doSomething(0);
+		Thread.sleep(1000);
+		myService.doSomething(0);
+		Thread.sleep(1000);
+		
+		myService.doSomething(1);
+		Thread.sleep(1000);
+		myService.doSomething(1);
+		Thread.sleep(1000);
+		
+		myService.doSomething(0);
+		Thread.sleep(1000);
+		
+		myService.doSomething(1);
+		Thread.sleep(1000);
+		
+		myService.doSomething(1);
+		Thread.sleep(1000);
+		
 	}
 
 }
