@@ -13,19 +13,27 @@ import java.util.concurrent.TimeUnit;
 @EnableCircuitBreaker
 public class HystrixCircuitBreakerDemoApplication {
 
+	//https://github.com/Netflix/Hystrix/wiki/Configuration
+	
+	//http://localhost:8001/hystrix
+	// http://localhost:8001/actuator/hystrix.stream
 	public static void main(String[] args) throws InterruptedException {
 		ConfigurableApplicationContext ctx = SpringApplication.run(HystrixCircuitBreakerDemoApplication.class, args);
 		MyService myService = ctx.getBean(MyService.class);
 
 		System.out.println("-- calling doSomething(1) 40 times --");
-		Thread.sleep(10000);
+		Thread.sleep(3000);
 		int n = 40;
 		for (int i = 0; i < n; i++) {
 			System.out.println("******* "+i +" **************");
-			myService.doSomething(i < (n * 0.6) ? 0 : 2);// 10/0
+			if(i > 4)
+				myService.doSomething(i < (n * 0.6) ? 0 : 2);// 10/0
+			
+			else
+				 myService.doSomething(1);// 10/0
 			TimeUnit.MILLISECONDS.sleep(100);
 		}
-		TimeUnit.SECONDS.sleep(6);
+		TimeUnit.SECONDS.sleep(2);
 
 		System.out.println("-- final call --");
 		myService.doSomething(2);

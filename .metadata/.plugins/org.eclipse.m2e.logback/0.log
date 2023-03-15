@@ -1773,3 +1773,323 @@ org.eclipse.core.runtime.CoreException: Could not resolve artifact org.springfra
 2023-03-15 10:13:22,141 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2023-03-15 10:13:22,141 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
 2023-03-15 10:13:22,141 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Shalini/Desktop/CitiMorningMSWS/HystrixConsumer/src/test/resources
+2023-03-15 10:23:34,838 [Worker-26: Import Getting Started Content] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.citi.ms:ResilienceConsumer:0.0.1-SNAPSHOT @ /Users/Shalini/Desktop/CitiMorningMSWS/ResilienceConsumer/pom.xml.
+2023-03-15 10:23:34,975 [Worker-26: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-starter-circuitbreaker-resilience4j/2.1.6/spring-cloud-starter-circuitbreaker-resilience4j-2.1.6.pom
+2023-03-15 10:23:34,991 [Worker-26: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-starter-circuitbreaker-resilience4j/2.1.6/spring-cloud-starter-circuitbreaker-resilience4j-2.1.6.pom
+2023-03-15 10:23:35,003 [Worker-26: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-starter-circuitbreaker/2.1.6/spring-cloud-starter-circuitbreaker-2.1.6.pom
+2023-03-15 10:23:35,013 [Worker-26: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-starter-circuitbreaker/2.1.6/spring-cloud-starter-circuitbreaker-2.1.6.pom
+2023-03-15 10:23:35,025 [Worker-26: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-circuitbreaker/2.1.6/spring-cloud-circuitbreaker-2.1.6.pom
+2023-03-15 10:23:35,034 [Worker-26: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-circuitbreaker/2.1.6/spring-cloud-circuitbreaker-2.1.6.pom
+2023-03-15 10:23:35,070 [Worker-26: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-circuitbreaker-resilience4j/2.1.6/spring-cloud-circuitbreaker-resilience4j-2.1.6.pom
+2023-03-15 10:23:35,089 [Worker-26: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-circuitbreaker-resilience4j/2.1.6/spring-cloud-circuitbreaker-resilience4j-2.1.6.pom
+2023-03-15 10:23:35,186 [AetherRepositoryConnector-repo.maven.apache.org-0-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-circuitbreaker-resilience4j/2.1.6/spring-cloud-circuitbreaker-resilience4j-2.1.6.jar
+2023-03-15 10:23:35,192 [AetherRepositoryConnector-repo.maven.apache.org-0-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-starter-circuitbreaker-resilience4j/2.1.6/spring-cloud-starter-circuitbreaker-resilience4j-2.1.6.jar
+2023-03-15 10:23:35,200 [AetherRepositoryConnector-repo.maven.apache.org-0-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-circuitbreaker-resilience4j/2.1.6/spring-cloud-circuitbreaker-resilience4j-2.1.6.jar
+2023-03-15 10:23:35,208 [AetherRepositoryConnector-repo.maven.apache.org-0-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-starter-circuitbreaker-resilience4j/2.1.6/spring-cloud-starter-circuitbreaker-resilience4j-2.1.6.jar
+2023-03-15 10:23:35,277 [Worker-26: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /ResilienceConsumer/src/main/java
+2023-03-15 10:23:35,277 [Worker-26: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /ResilienceConsumer/src/main/resources
+2023-03-15 10:23:35,278 [Worker-26: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /ResilienceConsumer/src/main/resources
+2023-03-15 10:23:35,279 [Worker-26: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /ResilienceConsumer/src/test/java
+2023-03-15 10:23:35,408 [Worker-26: Import Getting Started Content] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 0 sec
+2023-03-15 10:23:35,409 [Worker-26: Import Getting Started Content] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2023-03-15 10:23:35,469 [Worker-26: Import Getting Started Content] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.citi.ms:ResilienceConsumer:0.0.1-SNAPSHOT @ /Users/Shalini/Desktop/CitiMorningMSWS/ResilienceConsumer/pom.xml.
+2023-03-15 10:23:35,645 [Worker-26: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /ResilienceConsumer/src/main/java
+2023-03-15 10:23:35,645 [Worker-26: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /ResilienceConsumer/src/main/resources
+2023-03-15 10:23:35,645 [Worker-26: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /ResilienceConsumer/src/main/resources
+2023-03-15 10:23:35,645 [Worker-26: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /ResilienceConsumer/src/test/java
+2023-03-15 10:23:35,790 [Worker-26: Import Getting Started Content] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed for 1 poms: local refresh takes 0.00 sec, refresh facades takes 0.00 sec, update config takes 0.00 sec 
+2023-03-15 10:23:36,269 [Worker-26: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-starter-circuitbreaker-resilience4j/2.1.6/spring-cloud-starter-circuitbreaker-resilience4j-2.1.6-sources.jar
+2023-03-15 10:23:36,282 [Worker-26: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-starter-circuitbreaker-resilience4j/2.1.6/spring-cloud-starter-circuitbreaker-resilience4j-2.1.6-sources.jar
+2023-03-15 10:23:36,283 [Worker-26: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.cloud:spring-cloud-starter-circuitbreaker-resilience4j:2.1.6
+2023-03-15 10:23:36,327 [Worker-26: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-circuitbreaker-resilience4j/2.1.6/spring-cloud-circuitbreaker-resilience4j-2.1.6-sources.jar
+2023-03-15 10:23:36,345 [Worker-26: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-circuitbreaker-resilience4j/2.1.6/spring-cloud-circuitbreaker-resilience4j-2.1.6-sources.jar
+2023-03-15 10:23:36,346 [Worker-26: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.cloud:spring-cloud-circuitbreaker-resilience4j:2.1.6
+2023-03-15 10:23:36,387 [Worker-26: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/github/resilience4j/resilience4j-spring-boot2/1.7.0/resilience4j-spring-boot2-1.7.0-sources.jar
+2023-03-15 10:23:36,408 [Worker-26: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/github/resilience4j/resilience4j-spring-boot2/1.7.0/resilience4j-spring-boot2-1.7.0-sources.jar
+2023-03-15 10:23:36,409 [Worker-26: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for io.github.resilience4j:resilience4j-spring-boot2:1.7.0
+2023-03-15 10:23:36,450 [Worker-26: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/github/resilience4j/resilience4j-spring/1.7.0/resilience4j-spring-1.7.0-sources.jar
+2023-03-15 10:23:36,468 [Worker-26: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/github/resilience4j/resilience4j-spring/1.7.0/resilience4j-spring-1.7.0-sources.jar
+2023-03-15 10:23:36,468 [Worker-26: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for io.github.resilience4j:resilience4j-spring:1.7.0
+2023-03-15 10:23:36,505 [Worker-26: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/github/resilience4j/resilience4j-annotations/1.7.0/resilience4j-annotations-1.7.0-sources.jar
+2023-03-15 10:23:36,528 [Worker-26: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/github/resilience4j/resilience4j-annotations/1.7.0/resilience4j-annotations-1.7.0-sources.jar
+2023-03-15 10:23:36,529 [Worker-26: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for io.github.resilience4j:resilience4j-annotations:1.7.0
+2023-03-15 10:23:36,589 [Worker-26: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/github/resilience4j/resilience4j-consumer/1.7.0/resilience4j-consumer-1.7.0-sources.jar
+2023-03-15 10:23:36,611 [Worker-26: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/github/resilience4j/resilience4j-consumer/1.7.0/resilience4j-consumer-1.7.0-sources.jar
+2023-03-15 10:23:36,611 [Worker-26: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for io.github.resilience4j:resilience4j-consumer:1.7.0
+2023-03-15 10:23:36,657 [Worker-26: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/github/resilience4j/resilience4j-circularbuffer/1.7.0/resilience4j-circularbuffer-1.7.0-sources.jar
+2023-03-15 10:23:36,673 [Worker-26: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/github/resilience4j/resilience4j-circularbuffer/1.7.0/resilience4j-circularbuffer-1.7.0-sources.jar
+2023-03-15 10:23:36,674 [Worker-26: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for io.github.resilience4j:resilience4j-circularbuffer:1.7.0
+2023-03-15 10:23:36,723 [Worker-26: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/github/resilience4j/resilience4j-framework-common/1.7.0/resilience4j-framework-common-1.7.0-sources.jar
+2023-03-15 10:23:36,755 [Worker-26: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/github/resilience4j/resilience4j-framework-common/1.7.0/resilience4j-framework-common-1.7.0-sources.jar
+2023-03-15 10:23:36,756 [Worker-26: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for io.github.resilience4j:resilience4j-framework-common:1.7.0
+2023-03-15 10:23:36,807 [Worker-26: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/github/resilience4j/resilience4j-ratelimiter/1.7.0/resilience4j-ratelimiter-1.7.0-sources.jar
+2023-03-15 10:23:36,823 [Worker-26: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/github/resilience4j/resilience4j-ratelimiter/1.7.0/resilience4j-ratelimiter-1.7.0-sources.jar
+2023-03-15 10:23:36,823 [Worker-26: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for io.github.resilience4j:resilience4j-ratelimiter:1.7.0
+2023-03-15 10:23:36,881 [Worker-26: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/github/resilience4j/resilience4j-retry/1.7.0/resilience4j-retry-1.7.0-sources.jar
+2023-03-15 10:23:36,911 [Worker-26: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/github/resilience4j/resilience4j-retry/1.7.0/resilience4j-retry-1.7.0-sources.jar
+2023-03-15 10:23:36,912 [Worker-26: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for io.github.resilience4j:resilience4j-retry:1.7.0
+2023-03-15 10:23:36,954 [Worker-26: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/github/resilience4j/resilience4j-micrometer/1.7.0/resilience4j-micrometer-1.7.0-sources.jar
+2023-03-15 10:23:36,974 [Worker-26: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/github/resilience4j/resilience4j-micrometer/1.7.0/resilience4j-micrometer-1.7.0-sources.jar
+2023-03-15 10:23:36,974 [Worker-26: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for io.github.resilience4j:resilience4j-micrometer:1.7.0
+2023-03-15 10:23:37,012 [Worker-26: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/github/resilience4j/resilience4j-circuitbreaker/1.7.0/resilience4j-circuitbreaker-1.7.0-sources.jar
+2023-03-15 10:23:37,032 [Worker-26: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/github/resilience4j/resilience4j-circuitbreaker/1.7.0/resilience4j-circuitbreaker-1.7.0-sources.jar
+2023-03-15 10:23:37,033 [Worker-26: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for io.github.resilience4j:resilience4j-circuitbreaker:1.7.0
+2023-03-15 10:23:37,075 [Worker-26: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/vavr/vavr/0.10.2/vavr-0.10.2-sources.jar
+2023-03-15 10:23:37,124 [Worker-26: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/vavr/vavr/0.10.2/vavr-0.10.2-sources.jar
+2023-03-15 10:23:37,124 [Worker-26: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for io.vavr:vavr:0.10.2
+2023-03-15 10:23:37,163 [Worker-26: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/vavr/vavr-match/0.10.2/vavr-match-0.10.2-sources.jar
+2023-03-15 10:23:37,187 [Worker-26: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/vavr/vavr-match/0.10.2/vavr-match-0.10.2-sources.jar
+2023-03-15 10:23:37,188 [Worker-26: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for io.vavr:vavr-match:0.10.2
+2023-03-15 10:23:37,225 [Worker-26: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/github/resilience4j/resilience4j-core/1.7.0/resilience4j-core-1.7.0-sources.jar
+2023-03-15 10:23:37,248 [Worker-26: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/github/resilience4j/resilience4j-core/1.7.0/resilience4j-core-1.7.0-sources.jar
+2023-03-15 10:23:37,249 [Worker-26: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for io.github.resilience4j:resilience4j-core:1.7.0
+2023-03-15 10:23:37,282 [Worker-26: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/github/resilience4j/resilience4j-timelimiter/1.7.0/resilience4j-timelimiter-1.7.0-sources.jar
+2023-03-15 10:23:37,302 [Worker-26: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/github/resilience4j/resilience4j-timelimiter/1.7.0/resilience4j-timelimiter-1.7.0-sources.jar
+2023-03-15 10:23:37,303 [Worker-26: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for io.github.resilience4j:resilience4j-timelimiter:1.7.0
+2023-03-15 10:26:21,435 [Worker-30: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.citi.ms:ResilienceConsumer:0.0.1-SNAPSHOT @ /Users/Shalini/Desktop/CitiMorningMSWS/ResilienceConsumer/pom.xml.
+2023-03-15 10:26:21,750 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-15 10:26:21,751 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2023-03-15 10:26:21,752 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-03-15 10:26:21,752 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-03-15 10:26:21,754 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-15 10:26:21,754 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2023-03-15 10:26:21,754 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Shalini/Desktop/CitiMorningMSWS/ResilienceConsumer/src/test/resources
+2023-03-15 10:26:22,984 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-15 10:26:22,985 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2023-03-15 10:26:22,985 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-03-15 10:26:22,992 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-03-15 10:26:22,993 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-15 10:26:22,993 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2023-03-15 10:26:22,993 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Shalini/Desktop/CitiMorningMSWS/ResilienceConsumer/src/test/resources
+2023-03-15 10:26:23,326 [Worker-30: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2023-03-15 10:26:23,406 [Worker-30: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.citi.ms:ResilienceConsumer:0.0.1-SNAPSHOT @ /Users/Shalini/Desktop/CitiMorningMSWS/ResilienceConsumer/pom.xml.
+2023-03-15 10:26:23,548 [Worker-30: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /ResilienceConsumer/src/main/java
+2023-03-15 10:26:23,548 [Worker-30: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /ResilienceConsumer/src/main/resources
+2023-03-15 10:26:23,548 [Worker-30: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /ResilienceConsumer/src/main/resources
+2023-03-15 10:26:23,548 [Worker-30: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /ResilienceConsumer/src/test/java
+2023-03-15 10:26:23,677 [Worker-30: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed for 1 poms: local refresh takes 0.00 sec, refresh facades takes 0.00 sec, update config takes 0.00 sec 
+2023-03-15 10:34:05,550 [Worker-37: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.techgatha.cb:HystrixCircuitBreakerDemo:0.0.1-SNAPSHOT @ /Users/Shalini/Desktop/CitiMorningMSWS/HystrixCircuitBreakerDemo/pom.xml.
+2023-03-15 10:34:05,860 [Worker-37: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-15 10:34:05,861 [Worker-37: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-03-15 10:34:05,866 [Worker-37: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-03-15 10:34:05,868 [Worker-37: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-15 10:34:05,868 [Worker-37: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Shalini/Desktop/CitiMorningMSWS/HystrixCircuitBreakerDemo/src/test/resources
+2023-03-15 10:34:05,992 [Worker-34: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.techgatha.cb:HystrixCircuitBreakerDemo:0.0.1-SNAPSHOT @ /Users/Shalini/Desktop/CitiMorningMSWS/HystrixCircuitBreakerDemo/pom.xml.
+2023-03-15 10:34:07,045 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-15 10:34:07,046 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-03-15 10:34:07,046 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-03-15 10:34:07,047 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-15 10:34:07,048 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Shalini/Desktop/CitiMorningMSWS/HystrixCircuitBreakerDemo/src/test/resources
+2023-03-15 10:40:52,907 [Worker-37: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.citi.ms:ResilienceConsumer:0.0.1-SNAPSHOT @ /Users/Shalini/Desktop/CitiMorningMSWS/ResilienceConsumer/pom.xml.
+2023-03-15 10:40:53,216 [Worker-37: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-15 10:40:53,216 [Worker-37: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2023-03-15 10:40:53,220 [Worker-37: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-03-15 10:40:53,220 [Worker-37: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-03-15 10:40:53,224 [Worker-37: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-15 10:40:53,224 [Worker-37: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2023-03-15 10:40:53,224 [Worker-37: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Shalini/Desktop/CitiMorningMSWS/ResilienceConsumer/src/test/resources
+2023-03-15 10:40:54,523 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-15 10:40:54,524 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2023-03-15 10:40:54,525 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-03-15 10:40:54,577 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-03-15 10:40:54,580 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-15 10:40:54,580 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2023-03-15 10:40:54,580 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Shalini/Desktop/CitiMorningMSWS/ResilienceConsumer/src/test/resources
+2023-03-15 10:45:01,106 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-15 10:45:01,107 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2023-03-15 10:45:01,107 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-03-15 10:45:01,127 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-03-15 10:45:01,129 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-15 10:45:01,129 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2023-03-15 10:45:01,129 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Shalini/Desktop/CitiMorningMSWS/ResilienceConsumer/src/test/resources
+2023-03-15 10:55:04,038 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-15 10:55:04,043 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-03-15 10:55:04,058 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-03-15 10:55:04,060 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-15 10:55:04,060 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Shalini/Desktop/CitiMorningMSWS/HystrixCircuitBreakerDemo/src/test/resources
+2023-03-15 10:55:16,117 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-15 10:55:16,118 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-03-15 10:55:16,118 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-03-15 10:55:16,119 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-15 10:55:16,119 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Shalini/Desktop/CitiMorningMSWS/HystrixCircuitBreakerDemo/src/test/resources
+2023-03-15 10:58:12,513 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-15 10:58:12,514 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-03-15 10:58:12,515 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-03-15 10:58:12,516 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-15 10:58:12,516 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Shalini/Desktop/CitiMorningMSWS/HystrixCircuitBreakerDemo/src/test/resources
+2023-03-15 10:58:35,217 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-15 10:58:35,218 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-03-15 10:58:35,219 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-03-15 10:58:35,220 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-15 10:58:35,220 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Shalini/Desktop/CitiMorningMSWS/HystrixCircuitBreakerDemo/src/test/resources
+2023-03-15 11:03:08,948 [Worker-46: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-15 11:03:08,949 [Worker-46: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-03-15 11:03:08,950 [Worker-46: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-03-15 11:03:08,950 [Worker-46: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-15 11:03:08,950 [Worker-46: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Shalini/Desktop/CitiMorningMSWS/HystrixCircuitBreakerDemo/src/test/resources
+2023-03-15 11:07:18,147 [Worker-50: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-15 11:07:18,148 [Worker-50: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-03-15 11:07:18,149 [Worker-50: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-03-15 11:07:18,150 [Worker-50: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-15 11:07:18,150 [Worker-50: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Shalini/Desktop/CitiMorningMSWS/HystrixCircuitBreakerDemo/src/test/resources
+2023-03-15 11:10:06,280 [Worker-47: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-15 11:10:06,281 [Worker-47: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-03-15 11:10:06,282 [Worker-47: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-03-15 11:10:06,285 [Worker-47: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-15 11:10:06,285 [Worker-47: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Shalini/Desktop/CitiMorningMSWS/HystrixCircuitBreakerDemo/src/test/resources
+2023-03-15 11:10:29,506 [Worker-48: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.techgatha.cb:HystrixCircuitBreakerDemo:0.0.1-SNAPSHOT @ /Users/Shalini/Desktop/CitiMorningMSWS/HystrixCircuitBreakerDemo/pom.xml.
+2023-03-15 11:10:29,784 [Worker-48: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-15 11:10:29,785 [Worker-48: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-03-15 11:10:29,785 [Worker-48: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-03-15 11:10:29,787 [Worker-48: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-15 11:10:29,787 [Worker-48: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Shalini/Desktop/CitiMorningMSWS/HystrixCircuitBreakerDemo/src/test/resources
+2023-03-15 11:10:30,893 [Worker-50: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-15 11:10:30,893 [Worker-50: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-03-15 11:10:30,898 [Worker-50: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-03-15 11:10:30,899 [Worker-50: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-15 11:10:30,899 [Worker-50: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Shalini/Desktop/CitiMorningMSWS/HystrixCircuitBreakerDemo/src/test/resources
+2023-03-15 11:10:38,452 [Worker-53: Launching HystrixCircuitBreakerDemo - HystrixCircuitBreakerDemoApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-15 11:10:38,453 [Worker-53: Launching HystrixCircuitBreakerDemo - HystrixCircuitBreakerDemoApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-03-15 11:10:38,454 [Worker-53: Launching HystrixCircuitBreakerDemo - HystrixCircuitBreakerDemoApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-03-15 11:10:38,457 [Worker-53: Launching HystrixCircuitBreakerDemo - HystrixCircuitBreakerDemoApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-15 11:10:38,457 [Worker-53: Launching HystrixCircuitBreakerDemo - HystrixCircuitBreakerDemoApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Shalini/Desktop/CitiMorningMSWS/HystrixCircuitBreakerDemo/src/test/resources
+2023-03-15 11:14:41,412 [Worker-53: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-15 11:14:41,413 [Worker-53: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-03-15 11:14:41,413 [Worker-53: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-03-15 11:14:41,415 [Worker-53: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-15 11:14:41,415 [Worker-53: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Shalini/Desktop/CitiMorningMSWS/HystrixCircuitBreakerDemo/src/test/resources
+2023-03-15 11:17:16,975 [Worker-50: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-15 11:17:16,976 [Worker-50: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-03-15 11:17:16,977 [Worker-50: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-03-15 11:17:16,978 [Worker-50: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-15 11:17:16,978 [Worker-50: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Shalini/Desktop/CitiMorningMSWS/HystrixCircuitBreakerDemo/src/test/resources
+2023-03-15 11:18:21,861 [Worker-50: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-15 11:18:21,862 [Worker-50: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-03-15 11:18:21,863 [Worker-50: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-03-15 11:18:21,865 [Worker-50: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-15 11:18:21,865 [Worker-50: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Shalini/Desktop/CitiMorningMSWS/HystrixCircuitBreakerDemo/src/test/resources
+2023-03-15 11:20:52,846 [Worker-54: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-15 11:20:52,847 [Worker-54: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-03-15 11:20:52,847 [Worker-54: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-03-15 11:20:52,848 [Worker-54: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-15 11:20:52,848 [Worker-54: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Shalini/Desktop/CitiMorningMSWS/HystrixCircuitBreakerDemo/src/test/resources
+2023-03-15 11:26:03,700 [Worker-60: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-15 11:26:03,702 [Worker-60: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-03-15 11:26:03,702 [Worker-60: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-03-15 11:26:03,705 [Worker-60: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-15 11:26:03,705 [Worker-60: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Shalini/Desktop/CitiMorningMSWS/HystrixCircuitBreakerDemo/src/test/resources
+2023-03-15 11:26:09,021 [Worker-58: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-15 11:26:09,021 [Worker-58: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-03-15 11:26:09,022 [Worker-58: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-03-15 11:26:09,025 [Worker-58: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-15 11:26:09,025 [Worker-58: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Shalini/Desktop/CitiMorningMSWS/HystrixCircuitBreakerDemo/src/test/resources
+2023-03-15 11:26:45,616 [Worker-59: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-15 11:26:45,616 [Worker-59: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-03-15 11:26:45,617 [Worker-59: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-03-15 11:26:45,619 [Worker-59: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-15 11:26:45,619 [Worker-59: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Shalini/Desktop/CitiMorningMSWS/HystrixCircuitBreakerDemo/src/test/resources
+2023-03-15 11:29:42,850 [Worker-61: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.citi.ms:HystrixConsumer:0.0.1-SNAPSHOT @ /Users/Shalini/Desktop/CitiMorningMSWS/HystrixConsumer/pom.xml.
+2023-03-15 11:29:43,275 [Worker-61: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-15 11:29:43,275 [Worker-61: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2023-03-15 11:29:43,276 [Worker-61: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-03-15 11:29:43,276 [Worker-61: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-03-15 11:29:43,277 [Worker-61: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-15 11:29:43,277 [Worker-61: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2023-03-15 11:29:43,278 [Worker-61: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Shalini/Desktop/CitiMorningMSWS/HystrixConsumer/src/test/resources
+2023-03-15 11:29:44,573 [Worker-52: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-15 11:29:44,573 [Worker-52: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2023-03-15 11:29:44,573 [Worker-52: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-03-15 11:29:44,587 [Worker-52: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-03-15 11:29:44,588 [Worker-52: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-15 11:29:44,589 [Worker-52: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2023-03-15 11:29:44,589 [Worker-52: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Shalini/Desktop/CitiMorningMSWS/HystrixConsumer/src/test/resources
+2023-03-15 11:31:06,419 [Worker-52: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-15 11:31:06,420 [Worker-52: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-03-15 11:31:06,422 [Worker-52: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-03-15 11:31:06,424 [Worker-52: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-15 11:31:06,424 [Worker-52: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Shalini/Desktop/CitiMorningMSWS/HystrixCircuitBreakerDemo/src/test/resources
+2023-03-15 11:32:20,329 [Worker-61: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-15 11:32:20,330 [Worker-61: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-03-15 11:32:20,331 [Worker-61: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-03-15 11:32:20,332 [Worker-61: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-15 11:32:20,332 [Worker-61: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Shalini/Desktop/CitiMorningMSWS/HystrixCircuitBreakerDemo/src/test/resources
+2023-03-15 11:33:31,575 [Worker-61: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-15 11:33:31,576 [Worker-61: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-03-15 11:33:31,577 [Worker-61: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-03-15 11:33:31,578 [Worker-61: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-15 11:33:31,578 [Worker-61: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Shalini/Desktop/CitiMorningMSWS/HystrixCircuitBreakerDemo/src/test/resources
+2023-03-15 11:34:34,396 [Worker-55: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-15 11:34:34,397 [Worker-55: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-03-15 11:34:34,398 [Worker-55: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-03-15 11:34:34,399 [Worker-55: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-15 11:34:34,399 [Worker-55: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Shalini/Desktop/CitiMorningMSWS/HystrixCircuitBreakerDemo/src/test/resources
+2023-03-15 11:35:17,911 [Worker-61: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-15 11:35:17,912 [Worker-61: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-03-15 11:35:17,913 [Worker-61: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-03-15 11:35:17,915 [Worker-61: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-15 11:35:17,915 [Worker-61: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Shalini/Desktop/CitiMorningMSWS/HystrixCircuitBreakerDemo/src/test/resources
+2023-03-15 11:35:59,191 [Worker-55: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-15 11:35:59,194 [Worker-55: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-03-15 11:35:59,195 [Worker-55: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-03-15 11:35:59,197 [Worker-55: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-15 11:35:59,197 [Worker-55: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Shalini/Desktop/CitiMorningMSWS/HystrixCircuitBreakerDemo/src/test/resources
+2023-03-15 11:39:08,511 [Worker-64: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-15 11:39:08,513 [Worker-64: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-03-15 11:39:08,514 [Worker-64: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-03-15 11:39:08,515 [Worker-64: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-15 11:39:08,515 [Worker-64: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Shalini/Desktop/CitiMorningMSWS/HystrixCircuitBreakerDemo/src/test/resources
+2023-03-15 11:40:20,906 [Worker-55: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-15 11:40:20,907 [Worker-55: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-03-15 11:40:20,908 [Worker-55: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-03-15 11:40:20,909 [Worker-55: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-15 11:40:20,909 [Worker-55: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Shalini/Desktop/CitiMorningMSWS/HystrixCircuitBreakerDemo/src/test/resources
+2023-03-15 11:41:59,009 [Worker-60: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-15 11:41:59,012 [Worker-60: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-03-15 11:41:59,013 [Worker-60: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-03-15 11:41:59,015 [Worker-60: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-15 11:41:59,015 [Worker-60: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Shalini/Desktop/CitiMorningMSWS/HystrixCircuitBreakerDemo/src/test/resources
+2023-03-15 11:44:38,056 [Worker-68: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-15 11:44:38,057 [Worker-68: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-03-15 11:44:38,058 [Worker-68: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-03-15 11:44:38,063 [Worker-68: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-15 11:44:38,063 [Worker-68: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Shalini/Desktop/CitiMorningMSWS/HystrixCircuitBreakerDemo/src/test/resources
+2023-03-15 11:46:11,315 [Worker-67: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-15 11:46:11,316 [Worker-67: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-03-15 11:46:11,317 [Worker-67: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-03-15 11:46:11,318 [Worker-67: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-15 11:46:11,318 [Worker-67: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Shalini/Desktop/CitiMorningMSWS/HystrixCircuitBreakerDemo/src/test/resources
+2023-03-15 11:46:42,868 [Worker-67: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-15 11:46:42,869 [Worker-67: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-03-15 11:46:42,869 [Worker-67: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-03-15 11:46:42,870 [Worker-67: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-15 11:46:42,870 [Worker-67: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Shalini/Desktop/CitiMorningMSWS/HystrixCircuitBreakerDemo/src/test/resources
+2023-03-15 11:47:27,913 [Worker-55: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-15 11:47:27,914 [Worker-55: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-03-15 11:47:27,915 [Worker-55: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-03-15 11:47:27,916 [Worker-55: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-15 11:47:27,916 [Worker-55: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Shalini/Desktop/CitiMorningMSWS/HystrixCircuitBreakerDemo/src/test/resources
+2023-03-15 11:48:27,661 [Worker-63: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-15 11:48:27,666 [Worker-63: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-03-15 11:48:27,667 [Worker-63: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-03-15 11:48:27,669 [Worker-63: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-15 11:48:27,669 [Worker-63: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Shalini/Desktop/CitiMorningMSWS/HystrixCircuitBreakerDemo/src/test/resources
+2023-03-15 11:50:19,356 [Worker-69: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-15 11:50:19,357 [Worker-69: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-03-15 11:50:19,358 [Worker-69: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-03-15 11:50:19,359 [Worker-69: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-15 11:50:19,359 [Worker-69: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Shalini/Desktop/CitiMorningMSWS/HystrixCircuitBreakerDemo/src/test/resources
+2023-03-15 11:51:24,971 [Worker-69: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-15 11:51:24,972 [Worker-69: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-03-15 11:51:24,972 [Worker-69: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-03-15 11:51:24,973 [Worker-69: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-15 11:51:24,973 [Worker-69: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Shalini/Desktop/CitiMorningMSWS/HystrixCircuitBreakerDemo/src/test/resources
+2023-03-15 11:52:44,148 [Worker-65: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-15 11:52:44,151 [Worker-65: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-03-15 11:52:44,154 [Worker-65: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-03-15 11:52:44,158 [Worker-65: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-15 11:52:44,158 [Worker-65: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Shalini/Desktop/CitiMorningMSWS/HystrixCircuitBreakerDemo/src/test/resources
+2023-03-15 11:55:15,796 [Worker-69: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-15 11:55:15,797 [Worker-69: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-03-15 11:55:15,797 [Worker-69: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-03-15 11:55:15,798 [Worker-69: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-15 11:55:15,798 [Worker-69: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Shalini/Desktop/CitiMorningMSWS/HystrixCircuitBreakerDemo/src/test/resources
