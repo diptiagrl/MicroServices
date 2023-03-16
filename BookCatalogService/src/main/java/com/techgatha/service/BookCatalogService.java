@@ -11,7 +11,6 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
 import org.springframework.web.client.RestTemplate;
 
-import com.netflix.hystrix.contrib.javanica.annotation.HystrixCommand;
 import com.techgatha.model.OrderWrapper;
 import com.techgatha.model.OrderWrapperResponse;
 import com.techgatha.model.UserCatalog;
@@ -30,6 +29,7 @@ public class BookCatalogService {
 	
 	public List<UserCatalog> getBooksOrdered(String email)
 	{	
+		
 		List<OrderWrapper> orders = this.bookOrderFeignClient.getBookOrderDetails(email);
 		
 		return orders.stream()
