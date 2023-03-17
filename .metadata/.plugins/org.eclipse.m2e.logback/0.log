@@ -2851,3 +2851,22 @@ org.eclipse.core.runtime.CoreException: Could not resolve artifact org.springfra
 2023-03-16 12:43:32,801 [Worker-75: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/security/spring-security-core/5.7.7/spring-security-core-5.7.7-sources.jar
 2023-03-16 12:43:32,802 [Worker-75: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.security:spring-security-core:5.7.7
 2023-03-17 09:38:02,378 [Worker-3: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2023-03-17 12:04:39,874 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-17 12:04:39,876 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2023-03-17 12:04:39,879 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-03-17 12:04:39,886 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-03-17 12:04:39,888 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-17 12:04:39,888 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2023-03-17 12:04:39,888 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Shalini/Desktop/CitiMorningMSWS/SpringBootSecurityDemo/src/test/resources
+2023-03-17 12:05:27,221 [Worker-6: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2023-03-17 12:05:50,829 [Worker-11: Importing Maven projects] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:OauthClientCredentialsMS2:0.0.1-SNAPSHOT @ /Users/Shalini/Desktop/CitiMorningMSWS/OauthClientCredentialsMS2/pom.xml.
+2023-03-17 12:05:50,920 [Worker-11: Importing Maven projects] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:OauthClientCredentialsMS1:0.0.1-SNAPSHOT @ /Users/Shalini/Desktop/CitiMorningMSWS/OauthClientCredentialsMS1/pom.xml.
+2023-03-17 12:05:51,179 [Worker-11: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /OauthClientCredentialsMS2/src/main/java
+2023-03-17 12:05:51,180 [Worker-11: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /OauthClientCredentialsMS2/src/main/resources
+2023-03-17 12:05:51,180 [Worker-11: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /OauthClientCredentialsMS2/src/main/resources
+2023-03-17 12:05:51,180 [Worker-11: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /OauthClientCredentialsMS2/src/test/java
+2023-03-17 12:05:51,253 [Worker-11: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /OauthClientCredentialsMS1/src/main/java
+2023-03-17 12:05:51,253 [Worker-11: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /OauthClientCredentialsMS1/src/main/resources
+2023-03-17 12:05:51,253 [Worker-11: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /OauthClientCredentialsMS1/src/main/resources
+2023-03-17 12:05:51,253 [Worker-11: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /OauthClientCredentialsMS1/src/test/java
+2023-03-17 12:05:51,311 [Worker-11: Importing Maven projects] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 2 project(s) in 0 sec
