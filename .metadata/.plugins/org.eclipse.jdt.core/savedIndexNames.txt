@@ -11,7 +11,6 @@ INDEX VERSION 1.131+/Users/Shalini/Desktop/CitiMorningMSWS/.metadata/.plugins/or
 640104686.index
 3384291932.index
 3660312300.index
-2743032812.index
 355475513.index
 30032016.index
 1598761118.index
@@ -118,7 +117,6 @@ INDEX VERSION 1.131+/Users/Shalini/Desktop/CitiMorningMSWS/.metadata/.plugins/or
 2284358572.index
 3407272285.index
 3341271886.index
-310257534.index
 3529617888.index
 1329761291.index
 295181016.index
@@ -204,7 +202,6 @@ INDEX VERSION 1.131+/Users/Shalini/Desktop/CitiMorningMSWS/.metadata/.plugins/or
 3030785093.index
 4071293564.index
 941900461.index
-2041473684.index
 4193226256.index
 1315539175.index
 710466684.index
@@ -285,7 +282,6 @@ INDEX VERSION 1.131+/Users/Shalini/Desktop/CitiMorningMSWS/.metadata/.plugins/or
 964256511.index
 2623966564.index
 986946355.index
-3686351775.index
 2852837556.index
 910314958.index
 1715335784.index
@@ -322,7 +318,6 @@ INDEX VERSION 1.131+/Users/Shalini/Desktop/CitiMorningMSWS/.metadata/.plugins/or
 2012651369.index
 2406527606.index
 768037500.index
-953929301.index
 3419161153.index
 2335949694.index
 1142238764.index
@@ -369,7 +364,6 @@ INDEX VERSION 1.131+/Users/Shalini/Desktop/CitiMorningMSWS/.metadata/.plugins/or
 4191561294.index
 3537109237.index
 231129762.index
-4094408461.index
 3310111975.index
 2961356285.index
 549745586.index
